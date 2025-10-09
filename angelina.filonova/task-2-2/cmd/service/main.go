@@ -7,9 +7,8 @@ import (
 	"github.com/filon6/task-2-2/pkg/intheap"
 )
 
-
 func main() {
-	var countDishes, favorite int 
+	var countDishes, favorite int
 	fmt.Scan(&countDishes)
 
 	arr := make([]int, countDishes)
